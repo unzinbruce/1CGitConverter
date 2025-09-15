@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1b2c3d4-e5f6-7890-abcd-123456789abc">
+  <name>УправлениеЗаявками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление заявками</value>
+  </synonym>
+  <comment>Подсистема для работы с жалобами, пожеланиями и запросами на отгул, отпуск или больничный</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture>StdPicture.DataProcessor</picture>
+  <content>Catalog.ТипыЗаявок</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Document.Заявка</content>
+  <content>InformationRegister.НастройкиЗаявок</content>
+  <content>DataProcessor.НастройкиСистемыЗаявок</content>
+  <content>DataProcessor.ОбработкаЗаявок</content>
+</mdclass:Subsystem>

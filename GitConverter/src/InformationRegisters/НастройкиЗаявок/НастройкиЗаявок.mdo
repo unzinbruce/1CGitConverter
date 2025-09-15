@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaabbbcc-cddd-eeef-fff0-001122334455">
+  <producedTypes>
+    <selectionType typeId="11223344-5566-7788-99aa-bbccddeeff11" valueTypeId="22334455-6677-8899-aabb-ccddeeff0022"/>
+    <listType typeId="33445566-7788-99aa-bbcc-ddeeff001133" valueTypeId="44556677-8899-aabb-ccdd-eeff00112244"/>
+    <managerType typeId="55667788-99aa-bbcc-ddee-ff0011223355" valueTypeId="66778899-aabb-ccdd-eeff-001122334466"/>
+    <recordSetType typeId="77889900-bbcc-ddee-ff00-112233445577" valueTypeId="889900aa-ccdd-eeff-0011-223344556688"/>
+    <recordKeyType typeId="99aabbcc-deef-f001-1223-344556677899" valueTypeId="aabbccdd-eff0-0112-2334-4556677889aa"/>
+    <recordType typeId="bbccddee-f001-1223-3445-5667788900bb" valueTypeId="ccddeeef-0011-2233-4455-667788990acc"/>
+  </producedTypes>
+  <name>НастройкиЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки заявок</value>
+  </synonym>
+  <comment>Регистр для хранения настроек системы заявок</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <informationRegisterPeriodicity>Nonperiodical</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dimensions uuid="12345678-90ab-cdef-1234-567890abcdef">
+    <name>НастройкаПараметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр настройки</value>
+    </synonym>
+    <comment>Параметр настройки (тип настройки)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+  <resources uuid="abcdefab-cdef-1234-5678-90abcdef1234">
+    <name>ЗначениеСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение (строка)</value>
+    </synonym>
+    <comment>Строковое значение настройки</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="fedcbafe-dcba-5678-90ab-cdef12345678">
+    <name>ЗначениеБулево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение (булево)</value>
+    </synonym>
+    <comment>Булево значение настройки</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="aabbccaa-bbcc-9012-3456-789abcdef012">
+    <name>ЗначениеСписок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение (список)</value>
+    </synonym>
+    <comment>Список пользователей или других значений в формате XML</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+</mdclass:InformationRegister>

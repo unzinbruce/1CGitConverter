@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11223344-5566-7788-99aa-bbccddeeff00">
+  <producedTypes>
+    <refType typeId="aabbccdd-eeff-1122-3344-556677889900" valueTypeId="00112233-4455-6677-8899-aabbccddeeff"/>
+    <listType typeId="ffeeddcc-bbaa-9988-7766-554433221100" valueTypeId="001122aa-bbcc-ddee-ff00-112233445566"/>
+    <managerType typeId="445566ff-eedd-ccbb-aa99-887766554433" valueTypeId="77889900-1122-3344-5566-778899001122"/>
+  </producedTypes>
+  <name>СтатусыЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок</value>
+  </synonym>
+  <comment>Перечисление статусов заявок</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="11111111-2222-3333-4444-555555555555">
+    <name>Открыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыта</value>
+    </synonym>
+    <comment>Заявка подана и ожидает рассмотрения</comment>
+  </enumValues>
+  <enumValues uuid="22222222-3333-4444-5555-666666666666">
+    <name>Одобрена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одобрена</value>
+    </synonym>
+    <comment>Заявка одобрена администратором</comment>
+  </enumValues>
+  <enumValues uuid="33333333-4444-5555-6666-777777777777">
+    <name>Отказано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказано</value>
+    </synonym>
+    <comment>В заявке отказано администратором</comment>
+  </enumValues>
+</mdclass:Enum>

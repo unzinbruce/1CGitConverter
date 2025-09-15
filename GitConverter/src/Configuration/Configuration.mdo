@@ -106,4 +106,10 @@
   <dataProcessors>DataProcessor.КонвертацияВФорматEDT</dataProcessors>
   <informationRegisters>InformationRegister.ИнформацияПользователей</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияВерсии</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиЗаявок</informationRegisters>
+  <subsystems>Subsystem.УправлениеЗаявками</subsystems>
+  <catalogs>Catalog.ТипыЗаявок</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <documents>Document.Заявка</documents>
+  <enums>Enum.СтатусыЗаявок</enums>
 </mdclass:Configuration>
