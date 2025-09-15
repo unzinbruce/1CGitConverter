@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Template xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbbb2222-cccc-3333-dddd-4444eeee5555">
+  <name>Отказано</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отказано</value>
+  </synonym>
+  <comment>Макет для печатной формы отклоненной заявки</comment>
+  <templateType>MXLTemplate</templateType>
+</mdclass:Template>

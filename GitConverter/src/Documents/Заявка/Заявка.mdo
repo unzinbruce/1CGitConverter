@@ -71,6 +71,8 @@
   <registerRecords>InformationRegister.СостоянияВерсии</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <templates uuid="cccc3333-dddd-4444-eeee-5555ffff6666">Template.Одобрено</templates>
+  <templates uuid="dddd4444-eeee-5555-ffff-666677778888">Template.Отказано</templates>
   <attributes uuid="12341234-5678-90ab-cdef-123456789012">
     <name>ФизическоеЛицо</name>
     <synonym>

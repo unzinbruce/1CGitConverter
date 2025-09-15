@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Template xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaaa1111-bbbb-2222-cccc-3333dddd4444">
+  <name>Одобрено</name>
+  <synonym>
+    <key>ru</key>
+    <value>Одобрено</value>
+  </synonym>
+  <comment>Макет для печатной формы одобренной заявки</comment>
+  <templateType>MXLTemplate</templateType>
+</mdclass:Template>
