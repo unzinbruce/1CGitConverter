@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aabbccdd-eeff-1122-3344-5566778899aa">
+  <producedTypes>
+    <objectType typeId="11223344-5566-7788-99aa-bbccddeeff00" valueTypeId="22334455-6677-8899-aabb-ccddeeff0011"/>
+    <managerType typeId="33445566-7788-99aa-bbcc-ddeeff001122" valueTypeId="44556677-8899-aabb-ccdd-eeff00112233"/>
+  </producedTypes>
+  <name>НастройкиСистемыЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки системы заявок</value>
+  </synonym>
+  <comment>Обработка для настройки системы жалоб, пожеланий и запросов</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастройкиСистемыЗаявок.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+</mdclass:DataProcessor>

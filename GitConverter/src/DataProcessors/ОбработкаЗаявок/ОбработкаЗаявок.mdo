@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbccddee-ff00-1122-3344-556677889900">
+  <producedTypes>
+    <objectType typeId="ccddeeef-f001-1223-3445-566778899001" valueTypeId="ddeeff00-0112-2334-4556-677889900112"/>
+    <managerType typeId="eeff0011-1223-3445-5667-788990011223" valueTypeId="ff001122-2334-4556-6778-899001122334"/>
+  </producedTypes>
+  <name>ОбработкаЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка заявок</value>
+  </synonym>
+  <comment>Обработка для просмотра и обработки поступивших заявок</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработкаЗаявок.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+</mdclass:DataProcessor>

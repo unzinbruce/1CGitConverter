@@ -70,6 +70,8 @@
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
+  <roles>Role.ПользовательЗаявок</roles>
+  <roles>Role.АдминистраторЗаявок</roles>
   <commonModules>CommonModule.ДлительныеОперации</commonModules>
   <commonModules>CommonModule.ДлительныеОперацииКлиент</commonModules>
   <commonModules>CommonModule.КонвертацияХранилища</commonModules>
@@ -85,6 +87,7 @@
   <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.УправлениеЗаявками</commonModules>
   <scheduledJobs>ScheduledJob.ВыгрузкаВерсииИзКопииХранилища</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонвертацияХранилища</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаОчереди</scheduledJobs>
@@ -104,6 +107,8 @@
   <reports>Report.СкоростьКонвертации</reports>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.КонвертацияВФорматEDT</dataProcessors>
+  <dataProcessors>DataProcessor.НастройкиСистемыЗаявок</dataProcessors>
+  <dataProcessors>DataProcessor.ОбработкаЗаявок</dataProcessors>
   <informationRegisters>InformationRegister.ИнформацияПользователей</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияВерсии</informationRegisters>
   <informationRegisters>InformationRegister.НастройкиЗаявок</informationRegisters>
